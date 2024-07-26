@@ -28,7 +28,7 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		regpage.setConfirmPwd(pwd);
 		regpage.selectPrivacy();
 		regpage.clickContinue();
-		sa.assertEquals(regpage.Confirmationmsg(), "Your Account Has Been Created" );
+		sa.assertEquals(regpage.Confirmationmsg(), "Your Account Has Been Created!" );
 		sa.assertAll();
 			
 	}
